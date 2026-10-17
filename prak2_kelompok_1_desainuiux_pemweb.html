@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pemesanan Barang</title>
+</head>
+<body>
+
+    <h2>Form Pemesanan Barang</h2>
+
+    <form action="hasil.html" method="get">
+
+        <p>
+            Title Here:
+            <input type="text" name="title" value="MacBook Air E800">
+        </p>
+
+        <p>
+            Description:
+            <textarea name="description" rows="4" cols="30">Year: 2009
+Model:
+Condition: Mint</textarea>
+        </p>
+
+        <p>
+            Account Number:
+            <input type="text" name="account" value="123-456-789-0">
+        </p>
+
+        <p>
+            Bank:
+            <select name="bank">
+                <option>HSBC</option>
+                <option>BCA</option>
+                <option>Mandiri</option>
+                <option>BNI</option>
+            </select>
+        </p>
+
+        <p>
+            Account Holder:
+            <input type="text" name="holder">
+        </p>
+
+        <p>
+            Transaction:
+            <select name="transaction">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+        </p>
+
+        <p>
+            <input type="checkbox" name="mobile" value="yes">
+            Send to Mobile Phone
+        </p>
+
+        <p>
+            <input type="checkbox" name="email" value="yes">
+            Send to Email
+        </p>
+
+        <p>
+            Send to Mobile Phone:
+            <input type="tel" name="phone">
+        </p>
+
+        <p>
+            Send to Email:
+            <input type="email" name="email_address">
+        </p>
+
+        <button type="submit">Generate Nabr Link</button>
+
+    </form>
+
+</body>
+</html>
